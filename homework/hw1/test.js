@@ -38,6 +38,3 @@ describe("sumInput", () => {
         expect(sumInput()).toBeUndefined();
     })
 })
-
-//window.alert = jest.fn();
-//jest.spyOn(window, 'prompt').mockReturnValue("1")
