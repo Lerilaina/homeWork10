@@ -1,0 +1,41 @@
+.task {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 10px;
+  }
+  
+  .parent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    border: 1px solid blue;
+    /* допишите код ниже */
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-gap: 20px;
+  }
+  
+  .itemHead {
+    background-color: gold; /*цвет фона*/
+    padding: 10px; /*отступ от краев*/
+    border-radius: 6px; /*скругленные края*/
+    /* допишите код ниже */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .item {
+    background-color: gold;
+    padding: 10px;
+    border-radius: 6px;
+    /* допишите код ниже */
+    
+  }
